@@ -1,0 +1,25 @@
+.container {
+    background-color: #144956;
+    /* background-color: #f14c38; */
+}
+
+.header {
+    color: #f4f1e0;
+}
+
+.header img {
+    width: 180px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+.header img:hover {
+    width: 180px;
+    cursor: initial;
+}
+
+.header p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
