@@ -23,7 +23,7 @@ function Header() {
                     >
                         <h3>
                             Front End Software
-                            Engineer&nbsp;&nbsp;•&nbsp;&nbsp;City,
+                            Engineer&nbsp;&nbsp;•&nbsp;&nbsp;London,
                             GB&nbsp;&nbsp;•&nbsp;&nbsp;
                             <a
                                 href="mailto:michaelmoawad1997@gmail.com"
