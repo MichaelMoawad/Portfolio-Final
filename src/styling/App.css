@@ -1,4 +1,9 @@
 .App {
+    /* padding-top: 200px; */
+    padding-right: 150px;
+    padding-bottom: 200px;
+    padding-left: 150px;
+    scroll-behavior: smooth;
     text-align: center;
     background: #121f30;
 }

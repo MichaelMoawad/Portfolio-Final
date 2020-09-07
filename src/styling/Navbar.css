@@ -1,0 +1,76 @@
+.nav-header {
+    /* Header Css copied from Brittany Website */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    display: flex;
+    justify-items: center;
+    top: 0px;
+    padding: 0px 100px;
+    background-color: rgb(134, 143, 158);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 6vh;
+    align-items: center;
+}
+
+.navlinks-list {
+    display: flex;
+    /* -webkit-box-align: center; */
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    /* -webkit-box-pack: justify; */
+    justify-content: space-between;
+    /* -webkit-box-align: center; */
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+/* .li-one {
+    transition-delay: 0ms;
+}
+.li-two {
+    transition-delay: 100ms;
+}
+.li-three {
+    transition-delay: 200ms;
+}
+.li-four {
+    transition-delay: 300ms;
+}
+.resume {
+    transition-delay: 400ms;
+} */
+
+.link a {
+    padding: 12px 10px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+.link a:hover {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.burger div {
+    width: 25px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 5px;
+    /* z-index: 12; */
+}
+
+.burger :hover {
+    cursor: pointer;
+}
