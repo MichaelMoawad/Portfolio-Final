@@ -6,7 +6,7 @@
     justify-items: center;
     top: 0px;
     padding: 0px 100px;
-    background-color: rgb(134, 143, 158);
+    background: #121f30;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 

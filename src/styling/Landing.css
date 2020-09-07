@@ -4,3 +4,25 @@
     padding-bottom: 150px;
     padding-left: 0px;
 }
+
+.title-landing {
+    font-size: 90px;
+    text-align: left;
+}
+
+.one {
+    font-size: 15px;
+    color: #ffe785;
+}
+
+.two {
+    font-weight: 900;
+    font-size: 100px;
+    color: #fff4c8;
+}
+
+.three {
+    font-weight: 900;
+    font-size: 50px;
+    color: #beb89f;
+}

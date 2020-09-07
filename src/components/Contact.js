@@ -1,9 +1,9 @@
 import React from "react";
-import "../styling/Contact.css";
+// import "../styling/Contact.css";
 
 const Contact = () => {
     return (
-        <div className="contact-section" id="contact-section">
+        <div className="contact section" id="contact-section">
             <h1>Contact</h1>
             <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -12,6 +12,9 @@ const Contact = () => {
                 ipsam deserunt, aliquid praesentium ducimus, tenetur,
                 consequuntur repudiandae.
             </p>
+            <button class="button is-medium is-fullwidth test-color">
+                Medium
+            </button>
         </div>
     );
 };

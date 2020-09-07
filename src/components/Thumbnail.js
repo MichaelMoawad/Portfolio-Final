@@ -1,5 +1,5 @@
 import React from "react";
-import "../styling/Thumbnail.css";
+// import "../styling/Thumbnail.css";
 
 function Thumbnail(props) {
     return (

@@ -1,0 +1,33 @@
+.card {
+    margin-top: 20px;
+}
+
+.card,
+.title,
+.subtitle,
+.content h4 {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.card img {
+    color: rgb(26, 47, 71);
+    color: radial-gradient(
+        circle,
+        rgba(26, 47, 71, 1) 0%,
+        rgba(26, 47, 71, 1) 100%
+    );
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+.card img:hover {
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+    transform: translateY(-8px);
+}
+/* 
+.card:hover {
+    transform: translateY(-8px);
+    transition: 0.3s;
+} */

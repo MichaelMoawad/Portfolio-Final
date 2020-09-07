@@ -1,7 +1,5 @@
 html {
     scroll-behavior: smooth;
-    transition-duration: 500ms;
-    transition: cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 
 body {
@@ -11,6 +9,7 @@ body {
         "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: #121f30;
 }
 
 code {

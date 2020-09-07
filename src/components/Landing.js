@@ -1,12 +1,14 @@
 import React from "react";
-import "../styling/Landing.css";
+// import "../styling/Landing.css";
 
 const Landing = () => {
     return (
         <div className="landing">
-            <h1>Welcome, my name is</h1>
-            <h2>Michael Moawad</h2>
-            <h3>I design and build user interfaces for the web</h3>
+            <h6 className="title-landing one">Welcome, my name is</h6>
+            <h1 className="title-landing two">Michael Moawad</h1>
+            <h3 className="title-landing three">
+                I design and build user interfaces for the web
+            </h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Distinctio reprehenderit inventore est deleniti ducimus nisi
