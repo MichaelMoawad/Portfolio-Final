@@ -19,17 +19,12 @@ const WebsiteCard = (props) => {
 
                 <div class="content">
                     {props.content}
-                    <div>
-                        <h4>Technologies:</h4>
-                        <ul>
-                            <li>Magento 2</li>
-                            <li>SSH and SFTP </li>
-                        </ul>
+                    <div class="content-list">
+                        <div>{props.technologies}</div>
                     </div>
                     <a class="button is-primary is-inverted is-outlined">
                         Visit Site
                     </a>
-                    {/* <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time> */}
                 </div>
             </div>
         </div>
