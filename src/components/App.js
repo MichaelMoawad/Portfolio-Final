@@ -13,6 +13,7 @@ import Landing from "./Landing";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import SocialLinks from "./SocialLinks";
+import SocialLinksSVG from "./SVGComponents/SocialLinksSVG";
 
 function App() {
     return (
@@ -27,10 +28,10 @@ function App() {
                     <Contact />
                 </div>
             </div>
-            <button class="homepage-button is-primary is-outlined">
+            {/* <button class="homepage-button is-primary is-outlined">
                 Homepage
-            </button>
-            <SocialLinks />
+            </button> */}
+            <SocialLinksSVG />
             <Footer />
         </div>
     );

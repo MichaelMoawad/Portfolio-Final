@@ -1,7 +1,42 @@
 .contact {
-    padding-bottom: 350px;
+    padding-bottom: 270px;
 }
 
 .contact-me-title {
     position: absolute;
+}
+
+#cloud_1_1 {
+    transform: translateY(-200px);
+    animation: cloud_close_1 20s ease infinite alternate;
+}
+
+#cloud_2_1 {
+    transform: translateY(-200px);
+
+    animation: cloud_close_1 33s ease infinite alternate;
+}
+
+#cloud_3_1 {
+    transform: translateY(-200px);
+
+    animation: cloud_far_1 40s ease infinite alternate;
+}
+
+@keyframes cloud_close_1 {
+    from {
+        transform: translateX(-300px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes cloud_far_1 {
+    from {
+        transform: translateX(-200px);
+    }
+    to {
+        transform: translateX(100px);
+    }
 }

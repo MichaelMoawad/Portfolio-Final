@@ -16,18 +16,19 @@ const Contact = () => {
                 </div>
             </div> */}
             <div class="contact-me-title">
-                <h1>Contact Me</h1>
+                <h1>Get in touch</h1>
+                <p>I am currently searching for new employment oppurtunities</p>
             </div>
             <div class="contact-me-svg">
                 <ContactUsSVG />
             </div>
-            <a
+            {/* <a
                 href="mailto:michaelmoawad1997@gmail.com"
                 target="_blank"
                 class="webcard-button is-primary is-inverted is-outlined"
             >
                 Get in Touch
-            </a>
+            </a> */}
         </div>
     );
 };

@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className="nav-header">
             <nav>
                 <div className="logo">
-                    <h4>Michael Moawad</h4>
+                    <h4 className="logo-title">Michael Moawad</h4>
                 </div>
                 <div className="navlinks-list">
                     <ul className="navlinks">
@@ -22,12 +22,19 @@ const Navbar = () => {
                         <li className="link li-four">
                             <a href="#contact-section">Contact</a>
                         </li>
+                        <li>–––– </li>
                     </ul>
                     <div className="resume">
                         {/* <a class="webcard-button is-primary is-inverted is-outlined">
                             Visit Site
                         </a> */}
-                        <a href="#">Resume</a>
+                        <a
+                            href="https://www.cakeresume.com/michael-moawad"
+                            target="_blank"
+                            className="resume"
+                        >
+                            Resume
+                        </a>
                     </div>
                 </div>
             </nav>
