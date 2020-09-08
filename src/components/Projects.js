@@ -17,7 +17,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div class="column two-thirds">
-                    <h1>PersonalProjects</h1>
+                    <h1>Personal Projects</h1>
                     <p>
                         Within my personal projects, I have experience in
                         passing data between components, prototypal inheritance,

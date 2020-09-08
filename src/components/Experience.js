@@ -13,9 +13,6 @@ const Experience = () => {
             <div class="columns">
                 <div
                     class="column is-three-fifths
-
-
-
 "
                 >
                     <h1>Experience</h1>

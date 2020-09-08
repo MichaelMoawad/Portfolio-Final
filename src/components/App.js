@@ -12,6 +12,7 @@ import Projects from "./Projects";
 import Landing from "./Landing";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import SocialLinks from "./SocialLinks";
 
 function App() {
     return (
@@ -29,6 +30,7 @@ function App() {
             <button class="homepage-button is-primary is-outlined">
                 Homepage
             </button>
+            <SocialLinks />
             <Footer />
         </div>
     );
