@@ -6,7 +6,7 @@ const ScrumSVG = () => {
             id="afc98551-3d88-4acb-87ed-36f06011ac7a"
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
-            width="350.67627"
+            width="400.67627"
             height="350.00958"
             viewBox="0 0 821.67627 579.00958"
         >

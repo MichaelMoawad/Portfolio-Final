@@ -1,8 +1,13 @@
-.landing {
+/* .landing {
     padding-top: 150px;
     padding-right: 0px;
     padding-bottom: 150px;
     padding-left: 0px;
+} */
+
+.landing-section {
+    padding-top: 70px;
+    padding-bottom: 100px;
 }
 
 .title-landing {
@@ -11,18 +16,46 @@
 }
 
 .one {
-    font-size: 15px;
-    color: #ffe785;
+    font-weight: 900;
+    font-size: 100px;
+    color: rgba(255, 255, 255, 1);
 }
 
 .two {
     font-weight: 900;
-    font-size: 100px;
-    color: #fff4c8;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
-.three {
-    font-weight: 900;
-    font-size: 50px;
-    color: #beb89f;
+.landing-text {
+    padding-top: 100px;
+    position: absolute;
+}
+
+#cloud_1 {
+    animation: cloud_close 20s ease infinite alternate;
+}
+#cloud_2 {
+    animation: cloud_close 33s ease infinite alternate;
+}
+#cloud_3 {
+    animation: cloud_far 40s ease infinite alternate;
+}
+
+@keyframes cloud_close {
+    from {
+        transform: translateX(-300px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes cloud_far {
+    from {
+        transform: translateX(-200px);
+    }
+    to {
+        transform: translateX(100px);
+    }
 }

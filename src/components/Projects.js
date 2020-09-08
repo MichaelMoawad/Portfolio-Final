@@ -12,19 +12,32 @@ const Projects = () => {
         <div className="projects section" id="projects-section">
             <div class="columns">
                 <div class="column">
-                    <h1>PersonalProjects</h1>
-                    <p>Take a look at what I do in my spare time...</p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Exercitationem error ullam quae ad est dignissimos culpa
-                        aspernatur, velit pariatur, quos iusto enim quidem.
-                        Impedit tempore natus deleniti veritatis dicta iure?
-                    </p>
-                </div>
-                <div class="column">
                     <div>
                         <FreelancerSVG />
                     </div>
+                </div>
+                <div class="column two-thirds">
+                    <h1>PersonalProjects</h1>
+                    <p>
+                        Within my personal projects, I have experience in
+                        passing data between components, prototypal inheritance,
+                        API calls, asynchronous event handling, state management
+                        and much more.
+                    </p>
+                    <br />
+                    <p>
+                        I have built my knowledge on security standards
+                        associated with API calls and other web based features,
+                        dealing with CORS errors and understanding the role and
+                        importance of proxy servers.
+                    </p>
+                    <br />
+                    <p>
+                        Take a look at my most recent "Bible Reader" Web
+                        application, a web app that makes use of AJAX for data
+                        fetching from an API and React Hooks for state
+                        management and more.
+                    </p>
                 </div>
             </div>
             <div class="columns">

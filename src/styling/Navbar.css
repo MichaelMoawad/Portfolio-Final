@@ -35,6 +35,30 @@ ul {
     list-style: none;
 }
 
+.navbar-button {
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.5em;
+    padding: 20px;
+    /* position: relative; */
+    /* bottom: 30px; */
+    text-align: center;
+    background-color: transparent;
+    border-color: #00d1b2;
+    color: #00d1b2;
+    transition: 0.3s;
+}
+
+.navbar-button:hover {
+    background-color: #3f3d56;
+    color: #00d1b2;
+    transition: 0.2s;
+}
+
 /* .li-one {
     transition-delay: 0ms;
 }

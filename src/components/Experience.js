@@ -11,8 +11,34 @@ const Experience = () => {
     return (
         <div className="experience section" id="experience-section">
             <div class="columns">
-                <div class="column">
+                <div
+                    class="column is-three-fifths
+
+
+
+"
+                >
                     <h1>Experience</h1>
+                    <p>
+                        I work with employers of different technical abilities
+                        from various businesses, consistently keeping in contact
+                        with them to provide new pages or update existing pages
+                        within tight deadlines.
+                    </p>
+                    <br />
+                    <p>
+                        We adopt an Agile work methadology along with Trello
+                        boards to validate any issues, qualify the correct
+                        solution, size the solution, finish and deploy the
+                        updated site. I have experience using version control
+                        systems such as Git to safely update website elements
+                        and re-deploy live sites ensuring continuous Integration
+                        and delivery methods are used alongside deployment sites
+                        such as Netlify.
+                    </p>
+                    <br />
+
+                    <p>My most recent project... SSH SFTP, Apache Server etc</p>
                 </div>
                 <div class="column">
                     <div>
@@ -36,6 +62,7 @@ const Experience = () => {
                                     <li>HTML</li>
                                     <li>CSS</li>
                                     <li>SSH and SFTP</li>
+                                    <li>PHP</li>
                                 </ul>
                             </div>
                         }

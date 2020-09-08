@@ -63,8 +63,7 @@ const About = () => {
                                 Data acquired through geo-phones using both
                                 Matlab and Python. Following this, I have
                                 extended my skill set to now becoming competent
-                                in HTML, CSS and Vanilla JavaScript with a focus
-                                on React’s framework.
+                                in HTML, CSS and Vanilla JavaScript.
                             </p>
                             <div class="content">{/* <!-- Content --> */}</div>
                         </article>

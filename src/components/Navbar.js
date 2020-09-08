@@ -24,6 +24,9 @@ const Navbar = () => {
                         </li>
                     </ul>
                     <div className="resume">
+                        {/* <a class="webcard-button is-primary is-inverted is-outlined">
+                            Visit Site
+                        </a> */}
                         <a href="#">Resume</a>
                     </div>
                 </div>
