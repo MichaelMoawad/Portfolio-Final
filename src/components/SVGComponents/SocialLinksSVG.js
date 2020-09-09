@@ -32,7 +32,7 @@ const SocialLinks = () => {
                         </svg>
                     </a>
                 </li>
-                {/* <li>
+                <li>
                     <a
                         href="mailto:michaelmoawad1997@gmail.com"
                         target="_blank"
@@ -41,14 +41,18 @@ const SocialLinks = () => {
                         // class="social__StyledLink-anu6nt-1 jZDtYm"
                         class="email-iconSVG"
                     >
-                        <svg>
-                            <circle
-                                cx="550.08"
-                                cy="390.01"
-                                r="99.96"
-                                fill="#3f3d56"
-                                class="email-circle"
-                            />
+                        <svg
+                            id="ae37f038-3a9e-4b82-ad68-fc94ba16af2a"
+                            data-name="Layer 1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            // xmlns:xlink="http://www.w3.org/1999/xlink"
+                            // width="396"
+                            height="20.74"
+                            width="25"
+                            // viewBox="0 0 1096 574.74"
+                            viewBox="540 320 15 110" // height="358"
+                        >
+                            <title>contact us</title>
 
                             <path
                                 d="M658.93,522.44,629,552.89a.54.54,0,0,0,0,.78L650,576a3.62,3.62,0,0,1-2.55,6.17,3.64,3.64,0,0,1-2.56-1.06L624,558.86a.57.57,0,0,0-.8,0L618.11,564a22.37,22.37,0,0,1-16,6.73,22.86,22.86,0,0,1-16.28-6.92l-4.89-5a.57.57,0,0,0-.8,0l-20.84,22.2a3.61,3.61,0,0,1-5.11,0,3.6,3.6,0,0,1,0-5.11l20.92-22.28a.6.6,0,0,0,0-.78l-29.93-30.45a.55.55,0,0,0-.94.39v60.93a8.92,8.92,0,0,0,8.89,8.89H651a8.92,8.92,0,0,0,8.89-8.89V522.83A.55.55,0,0,0,658.93,522.44Z"
@@ -62,7 +66,7 @@ const SocialLinks = () => {
                             />
                         </svg>
                     </a>
-                </li> */}
+                </li>
                 <li class="list-item">
                     <a
                         href="https://www.instagram.com/moawadmusic"
@@ -138,12 +142,16 @@ const SocialLinks = () => {
                     </a>
                 </li>
             </ul>
-
             <path
                 d="M831.73,300.86a100,100,0,1,0,99.95,99.95A100,100,0,0,0,831.73,300.86Zm0,186.62a86.67,86.67,0,1,1,86.67-86.67A86.67,86.67,0,0,1,831.73,487.48Z"
                 transform="translate(-52 -162.63)"
                 opacity="0.1"
             />
+            {/* <div>
+                <a href="mailto:michaelmoawad1997@gmail.com">
+                    michaelmoawad1997@gmail.com
+                </a>
+            </div> */}
         </div>
     );
 };

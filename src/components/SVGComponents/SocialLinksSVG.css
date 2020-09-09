@@ -1,7 +1,7 @@
 .social-icons-leftpanel {
     display: flex;
     flex-direction: column;
-    width: 130px;
+    width: 180px;
     position: absolute;
     bottom: 20px;
     padding-left: 40px;
@@ -11,4 +11,8 @@
 .list-item {
     width: 20px;
     height: 20px;
+}
+
+#ae37f038-3a9e-4b82-ad68-fc94ba16af2a {
+    border: 0px solid red;
 }

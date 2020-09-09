@@ -27,9 +27,19 @@
     color: rgba(255, 255, 255, 0.8);
 }
 
-.landing-text {
+.landing-text-1 {
     padding-top: 100px;
     position: absolute;
+}
+.landing-text-2 {
+    padding-top: 100px;
+    padding-left: 40px;
+    position: absolute;
+}
+
+.logo-landing {
+    padding-top: 20px;
+    height: 184px;
 }
 
 #cloud_1 {

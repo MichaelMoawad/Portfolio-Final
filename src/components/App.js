@@ -20,8 +20,8 @@ function App() {
         <div>
             <Navbar />
             <div className="container">
+                <Landing />
                 <div className="App">
-                    <Landing />
                     <About />
                     <Experience />
                     <Projects id="#projects-section" />

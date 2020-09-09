@@ -6,7 +6,14 @@ const Navbar = () => {
         <div className="nav-header">
             <nav>
                 <div className="logo">
-                    <h4 className="logo-title">Michael Moawad</h4>
+                    <a href="#home">
+                        <img
+                            className="logo-navbar"
+                            src="Michael_Moawad_ofiicial_logo_BACK.png"
+                            alt="logo-noback"
+                        />
+                    </a>
+                    {/* <h4 className="logo-title">Michael Moawad</h4> */}
                 </div>
                 <div className="navlinks-list">
                     <ul className="navlinks">
