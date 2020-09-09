@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "../styling/Navbar.css";
 
 const Navbar = () => {
@@ -6,13 +7,23 @@ const Navbar = () => {
         <div className="nav-header">
             <nav>
                 <div className="logo">
-                    <a href="#home">
+                    <Link
+                        activeClass="active"
+                        to="home"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >
                         <img
                             className="logo-navbar"
                             src="Michael_Moawad_ofiicial_logo_BACK.png"
                             alt="logo-noback"
                         />
-                    </a>
+                    </Link>
+                    {/* <a href="#home">
+                        
+                    </a> */}
                     {/* <h4 className="logo-title">Michael Moawad</h4> */}
                 </div>
                 <div className="navlinks-list">
