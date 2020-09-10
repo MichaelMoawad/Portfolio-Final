@@ -62,3 +62,12 @@
     color: #00d1b2;
     transition: 0.2s;
 }
+
+@media screen and (max-width: 768px) {
+    .content {
+        padding-bottom: 20px;
+    }
+    .card img {
+        opacity: 1;
+    }
+}

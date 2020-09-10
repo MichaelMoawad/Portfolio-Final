@@ -4,7 +4,7 @@ import "./SocialLinksSVG.css";
 const SocialLinks = () => {
     return (
         <div class="social-icons-leftpanel">
-            <ul>
+            <ul class="social-icons-list">
                 <li class="list-item">
                     <a
                         href="https://www.linkedin.com/in/michael-moawad-02072a130/"
@@ -48,9 +48,9 @@ const SocialLinks = () => {
                             // xmlns:xlink="http://www.w3.org/1999/xlink"
                             // width="396"
                             height="20.74"
-                            width="25"
+                            width="27"
                             // viewBox="0 0 1096 574.74"
-                            viewBox="540 320 15 110" // height="358"
+                            viewBox="540 320 15 110"
                         >
                             <title>contact us</title>
 

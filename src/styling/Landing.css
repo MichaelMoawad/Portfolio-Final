@@ -10,6 +10,8 @@
 
 .landing-section {
     padding-top: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 100px;
 }
 
@@ -111,5 +113,32 @@
     100% {
         transform: translateY(0px);
         opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .landing-image {
+        display: none;
+    }
+    .landing-section {
+        height: 550px;
+    }
+
+    .logo-landing {
+        display: none;
+    }
+    .one {
+        font-size: 60px;
+        padding-bottom: 60px;
+    }
+
+    .two {
+        font-size: 18px;
+    }
+    .landing-text-2 {
+        /* animation-fill-mode: forwards;
+        opacity: 0; */
+        padding-top: 30px;
+        padding-left: 0px;
     }
 }

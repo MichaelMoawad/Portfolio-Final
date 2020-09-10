@@ -7,14 +7,7 @@ const Navbar = () => {
         <div className="nav-header">
             <nav>
                 <div className="logo">
-                    <Link
-                        activeClass="active"
-                        to="home"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                    >
+                    <Link to="home" smooth={true} duration={500}>
                         <img
                             className="logo-navbar"
                             src="Michael_Moawad_ofiicial_logo_BACK.png"
@@ -31,6 +24,9 @@ const Navbar = () => {
                         <li className="link li-one">
                             <a href="#about-section">About</a>
                         </li>
+                        {/* <Link to="home" smooth={true} duration={500}>
+                            Section 1
+                        </Link> */}
                         <li className="link li-two">
                             <a href="#experience-section">Experience</a>
                         </li>
@@ -40,7 +36,7 @@ const Navbar = () => {
                         <li className="link li-four">
                             <a href="#contact-section">Contact</a>
                         </li>
-                        <li>–––– </li>
+                        <li className="line-between">–––– </li>
                     </ul>
                     <div className="resume">
                         {/* <a class="webcard-button is-primary is-inverted is-outlined">
@@ -54,6 +50,11 @@ const Navbar = () => {
                             Resume
                         </a>
                     </div>
+                </div>
+                <div className="burger">
+                    <div className="line-1"></div>
+                    <div className="line-2"></div>
+                    <div className="line-3"></div>
                 </div>
             </nav>
         </div>

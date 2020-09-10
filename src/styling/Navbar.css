@@ -7,7 +7,7 @@
     justify-items: center;
     position: fixed;
     top: 0px;
-    padding: 0px 60px;
+    padding: 0px 45px;
     background: #121f30;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     z-index: 1;
@@ -20,7 +20,7 @@
 
 .logo-navbar {
     padding-top: 20px;
-    height: 50px;
+    height: 55px;
 }
 
 .resume {
@@ -41,7 +41,7 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    min-height: 6vh;
+    min-height: 5vh;
     align-items: center;
 }
 
@@ -114,14 +114,59 @@ ul {
     transition: 0.2s;
 }
 
+/* -------- burger styling -------- */
+
+.burger {
+    display: none;
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.7;
+}
+
+.burger:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
 .burger div {
-    width: 25px;
+    width: 24px;
     height: 2px;
     background-color: rgba(255, 255, 255, 1);
     margin: 5px;
     /* z-index: 12; */
 }
 
-.burger :hover {
-    cursor: pointer;
+/* ---------------------------------------------  */
+
+/* ---------------- MOBILE VIEW ----------------  */
+/* ---------------------------------------------  */
+
+@media screen and (max-width: 768px) {
+    .line-between {
+        display: none;
+    }
+    .navlinks-list {
+        font-size: 18px;
+        width: 60%;
+        position: absolute;
+        right: 0px;
+        height: 95vh;
+        top: 5vh;
+        background-color: rgb(56, 51, 9);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        transform: translateX(100%);
+    }
+
+    .navlinks {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .burger {
+        display: block;
+    }
 }
