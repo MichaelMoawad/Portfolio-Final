@@ -4,6 +4,9 @@
     padding-bottom: 150px;
     padding-left: 0px;
 } */
+/* .logo-landing {
+    animation: logo_load 700ms cubic-bezier(0.25, 0.1, 0.25, 1);
+} */
 
 .landing-section {
     padding-top: 70px;
@@ -32,15 +35,23 @@
     position: absolute;
 }
 .landing-text-2 {
+    /* animation-fill-mode: forwards;
+    opacity: 0; */
     padding-top: 100px;
     padding-left: 40px;
     position: absolute;
+    animation: text_load 800ms cubic-bezier(0.25, 0.1, 0.25, 1) 700ms;
 }
 
 .logo-landing {
     padding-top: 20px;
     height: 184px;
+    animation: logo_load 700ms cubic-bezier(0.25, 0.1, 0.25, 1);
 }
+
+/* .landing-image {
+    animation: dreamer_load 700ms cubic-bezier(0.25, 0.1, 0.25, 1) 700ms;
+} */
 
 #cloud_1 {
     animation: cloud_close 20s ease infinite alternate;
@@ -67,5 +78,38 @@
     }
     to {
         transform: translateX(100px);
+    }
+}
+
+@keyframes logo_load {
+    0% {
+        transform: rotate(100deg);
+        opacity: 0;
+    }
+    100% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+}
+/* 
+@keyframes text_load {
+    0% {
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+} */
+
+@keyframes dreamer_load {
+    0% {
+        transform: translateY(300px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
     }
 }

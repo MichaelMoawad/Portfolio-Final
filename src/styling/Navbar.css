@@ -7,7 +7,7 @@
     justify-items: center;
     position: fixed;
     top: 0px;
-    padding: 0px 100px;
+    padding: 0px 60px;
     background: #121f30;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     z-index: 1;
