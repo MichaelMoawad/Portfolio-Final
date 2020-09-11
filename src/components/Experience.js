@@ -35,7 +35,7 @@ const Experience = () => {
                     </p>
                     <br />
 
-                    <p>My most recent project... SSH SFTP, Apache Server etc</p>
+                    {/* <p>My most recent project... SSH SFTP, Apache Server etc</p> */}
                 </div>
                 <div class="column">
                     <div>

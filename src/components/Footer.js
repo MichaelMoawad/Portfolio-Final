@@ -5,8 +5,8 @@ const Footer = () => {
     return (
         <footer class="footer-section">
             <div class="footer-content has-text-centered">
-                <p>
-                    –––––––––– Designed and Built by Michael Moawad ––––––––––
+                <p class="footer-text">
+                    –––– Designed and Built by Michael Moawad ––––
                 </p>
             </div>
         </footer>

@@ -35,3 +35,19 @@
     color: #01d1b2;
     transition: 0.2s;
 }
+
+.landing-icon-SVGs {
+    display: none;
+}
+
+/* ---------------------------------------------  */
+/* ---------------- MOBILE VIEW ----------------  */
+/* ---------------------------------------------  */
+
+@media screen and (max-width: 768px) {
+    .landing-icon-SVGs {
+        padding-top: 300px;
+        padding-bottom: 600px;
+        display: block;
+    }
+}

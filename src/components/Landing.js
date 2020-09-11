@@ -2,6 +2,7 @@ import React from "react";
 import DreamerSVG from "./SVGComponents/DreamerSVG";
 
 import "../styling/Landing.css";
+import LandingPageSVG from "./SVGComponents/LandingPageSVG";
 
 const Landing = () => {
     return (
@@ -27,6 +28,9 @@ const Landing = () => {
             </div>
             <div className="landing-image">
                 <DreamerSVG />
+            </div>
+            <div>
+                <LandingPageSVG />
             </div>
         </div>
     );
