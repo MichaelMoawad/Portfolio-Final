@@ -7,7 +7,13 @@ import LandingPageSVG from "./SVGComponents/LandingPageSVG";
 const Landing = () => {
     return (
         <div className="landing-section" id="home">
-            <div class="columns">
+            <div className="landing-image">
+                <DreamerSVG />
+            </div>
+            <div>
+                <LandingPageSVG />
+            </div>
+            <div class="columns column-landing">
                 <div class="column is-1">
                     <div className="landing-text-1">
                         <img
@@ -25,12 +31,6 @@ const Landing = () => {
                         </h3>
                     </div>
                 </div>
-            </div>
-            <div className="landing-image">
-                <DreamerSVG />
-            </div>
-            <div>
-                <LandingPageSVG />
             </div>
         </div>
     );
