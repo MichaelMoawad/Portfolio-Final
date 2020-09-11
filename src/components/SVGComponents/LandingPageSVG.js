@@ -1,5 +1,5 @@
 import React from "react";
-import "./ContactUsSVG.css";
+import "./LandingPageSVG.css";
 
 const LandingPageSVG = () => {
     return (

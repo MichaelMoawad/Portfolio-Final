@@ -4,6 +4,7 @@ import "./ContactUsSVG.css";
 const ContactUsSVG = () => {
     return (
         <svg
+            className="contact-SVG"
             id="ae37f038-3a9e-4b82-ad68-fc94ba16af2a"
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"

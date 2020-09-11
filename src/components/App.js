@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 // import BibleReaderSS from "../Portfolio Pics/Bible-Reader.png";
 // import BudgetAppSS from "../Portfolio Pics/Budget-App.png";
 // import RollTheDiceSS from "../Portfolio Pics/Roll-The-Dice-App.png";
@@ -15,26 +15,50 @@ import Footer from "./Footer";
 import SocialLinks from "./SocialLinks";
 import SocialLinksSVG from "./SVGComponents/SocialLinksSVG";
 
-function App() {
-    return (
-        <div>
-            <Navbar />
-            <div className="container">
-                <Landing />
-                <div className="App">
-                    <About />
-                    <Experience />
-                    <Projects id="#projects-section" />
-                    <Contact />
+class App extends Component {
+    render() {
+        return (
+            <div>
+                <Navbar />
+                <div className="container">
+                    <Landing />
+                    <div className="App">
+                        <About />
+                        <Experience />
+                        <Projects id="#projects-section" />
+                        <Contact />
+                    </div>
                 </div>
-            </div>
-            {/* <button class="homepage-button is-primary is-outlined">
+                {/* <button class="homepage-button is-primary is-outlined">
                 Homepage
             </button> */}
-            <SocialLinksSVG />
-            <Footer />
-        </div>
-    );
+                <SocialLinksSVG />
+                <Footer />
+            </div>
+        );
+    }
 }
+
+// function App() {
+//     return (
+//         <div>
+//             <Navbar />
+//             <div className="container">
+//                 <Landing />
+//                 <div className="App">
+//                     <About />
+//                     <Experience />
+//                     <Projects id="#projects-section" />
+//                     <Contact />
+//                 </div>
+//             </div>
+//             {/* <button class="homepage-button is-primary is-outlined">
+//                 Homepage
+//             </button> */}
+//             <SocialLinksSVG />
+//             <Footer />
+//         </div>
+//     );
+// }
 
 export default App;

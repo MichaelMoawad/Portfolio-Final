@@ -7,14 +7,6 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
-@media screen and (max-width: 768px) {
-    .App {
-        padding-right: 40px;
-        padding-bottom: 200px;
-        padding-left: 40px;
-    }
-}
-
 /* 
 .tile article {
     transform: translatex(10px);
@@ -88,7 +80,23 @@ h1 {
 /* ---------------------------------------------  */
 
 @media screen and (max-width: 768px) {
+    .App {
+        padding-right: 40px;
+        padding-bottom: 200px;
+        padding-left: 40px;
+    }
     h1 {
         font-size: 50px;
     }
+    .section {
+        padding-top: 100px;
+    }
 }
+
+/* @media screen and (max-width: 768px) {
+    .App {
+        padding-right: 40px;
+        padding-bottom: 200px;
+        padding-left: 40px;
+    }
+} */
