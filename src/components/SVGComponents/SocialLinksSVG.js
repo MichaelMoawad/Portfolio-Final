@@ -5,7 +5,7 @@ const SocialLinks = () => {
     return (
         <div class="social-icons-leftpanel">
             <ul class="social-icons-list">
-                <li class="list-item">
+                <li class="social-list-item-one">
                     <a
                         href="https://www.linkedin.com/in/michael-moawad-02072a130/"
                         target="_blank"
@@ -32,7 +32,7 @@ const SocialLinks = () => {
                         </svg>
                     </a>
                 </li>
-                <li>
+                <li class="social-list-item-two">
                     <a
                         href="mailto:michaelmoawad1997@gmail.com"
                         target="_blank"
@@ -67,7 +67,7 @@ const SocialLinks = () => {
                         </svg>
                     </a>
                 </li>
-                <li class="list-item">
+                <li class="social-list-item-three">
                     <a
                         href="https://www.instagram.com/moawadmusic"
                         target="_blank"
@@ -108,7 +108,7 @@ const SocialLinks = () => {
                         opacity="0.1"
                     />
                 </li>
-                <li class="list-item">
+                <li class="social-list-item-four">
                     <a
                         href="https://github.com/MichaelMoawad"
                         target="_blank"
