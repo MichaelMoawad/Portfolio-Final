@@ -1,5 +1,6 @@
 import React from "react";
 import DreamerSVG from "./SVGComponents/DreamerSVG";
+import CPTextAnimation from "./CPTextAnimation";
 
 import "../styling/Landing.css";
 import LandingPageSVG from "./SVGComponents/LandingPageSVG";
@@ -29,6 +30,7 @@ const Landing = () => {
                         <h3 className="title-landing two">
                             Front End Software Developer and UI Designer.
                         </h3>
+                        {/* <CPTextAnimation /> */}
                     </div>
                 </div>
             </div>

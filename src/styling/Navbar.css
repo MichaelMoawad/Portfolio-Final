@@ -34,7 +34,7 @@
     transition: 0.2s;
 }
 
-nav {
+.nav-header nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -53,7 +53,7 @@ nav {
     align-items: center;
 }
 
-ul {
+.nav-header ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
