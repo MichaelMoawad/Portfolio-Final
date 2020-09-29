@@ -2,14 +2,51 @@ import React from "react";
 import MichaelLinkedin from "../Portfolio Pics/Michael-LinkedIn.jpg";
 import "../styling/About.css";
 
+function useOnScreen(options) {
+    const [ref, setRef] = React.useState(null);
+    const [visible, setVisible] = React.useState(false);
+
+    React.useEffect(() => {
+        const observer = new IntersectionObserver(([entry]) => {
+            setVisible(entry.isIntersecting);
+        }, options);
+
+        if (ref && !visible) {
+            observer.observe(ref);
+        }
+
+        return () => {
+            if (ref) {
+                observer.unobserve(ref);
+            }
+        };
+    }, [options]);
+
+    return [setRef, visible];
+}
+
 const About = () => {
+    const [setRef, visible] = useOnScreen({ rootMargin: "-500px" });
+
     return (
-        <div className="about section" id="about-section">
-            <h1>About Me...</h1>
+        <div className="about section" id="about-section" ref={setRef}>
+            <h1
+                className={
+                    visible ? "el-one-left-onscrn" : "el-one-left-offscrn"
+                }
+            >
+                About Me...
+            </h1>
             <div class="tile is-ancestor">
                 <div class="tile is-vertical is-8">
                     <div class="tile is-parent">
-                        <article class="tile is-child notification test-color">
+                        <article
+                            className={`tile is-child notification test-color ${
+                                visible
+                                    ? "el-one-left-onscrn"
+                                    : "el-one-left-offscrn"
+                            }`}
+                        >
                             <h3 class="title">Hey!</h3>
                             <p class="subtitle">
                                 I'm Michael, a self taught Software Developer
@@ -22,13 +59,25 @@ const About = () => {
                     </div>
                     <div class="tile">
                         <div class="tile is-parent is-vertical">
-                            <article class="tile is-child notification test-color">
+                            <article
+                                className={`tile is-child notification test-color ${
+                                    visible
+                                        ? "el-two-left-onscrn"
+                                        : "el-two-left-offscrn"
+                                }`}
+                            >
                                 <h3 class="title">Where I'm from</h3>
                                 <p class="subtitle">
                                     Surbiton, London, The United Kingdom
                                 </p>
                             </article>
-                            <article class="tile is-child notification test-color">
+                            <article
+                                className={`tile is-child notification test-color ${
+                                    visible
+                                        ? "el-three-left-onscrn"
+                                        : "el-three-left-offscrn"
+                                }`}
+                            >
                                 <h3 class="title">Where I Studied</h3>
                                 <p class="subtitle">
                                     I studied Mechanical Engineering
@@ -41,7 +90,13 @@ const About = () => {
                             </article>
                         </div>
                         <div class="tile is-parent">
-                            <article class="tile is-child notification test-color">
+                            <article
+                                class={`tile is-child notification test-color ${
+                                    visible
+                                        ? "el-fade-in-onscrn"
+                                        : "el-fade-in-offscrn"
+                                }`}
+                            >
                                 {/* <p class="title">Middle tile</p> */}
                                 {/* <p class="subtitle">With an image</p> */}
                                 <figure class="image is-200x">
@@ -54,7 +109,13 @@ const About = () => {
                         </div>
                     </div>
                     <div class="tile is-parent">
-                        <article class="tile is-child notification test-color">
+                        <article
+                            className={`tile is-child notification test-color ${
+                                visible
+                                    ? "el-four-left-onscrn"
+                                    : "el-four-left-offscrn"
+                            }`}
+                        >
                             <h3 class="title">How I got here</h3>
                             <p class="subtitle">
                                 As part of my final year Project during my
@@ -70,7 +131,13 @@ const About = () => {
                     </div>
                 </div>
                 <div class="tile is-parent">
-                    <article class="tile is-child notification test-color">
+                    <article
+                        className={`tile is-child notification test-color ${
+                            visible
+                                ? "el-one-right-onscrn"
+                                : "el-one-right-offscrn"
+                        }`}
+                    >
                         <div class="content">
                             <h3 class="title">What I'm up to</h3>
                             <p class="subtitle">

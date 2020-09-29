@@ -7,23 +7,72 @@ import ScrumSVG from "./SVGComponents/ScrumSVG";
 
 // import "../styling/Experience.css";
 
+function useOnScreen(options) {
+    const [ref, setRef] = React.useState(null);
+    const [visible, setVisible] = React.useState(false);
+
+    React.useEffect(() => {
+        const observer = new IntersectionObserver(([entry]) => {
+            setVisible(entry.isIntersecting);
+        }, options);
+
+        if (ref && !visible) {
+            observer.observe(ref);
+        }
+
+        return () => {
+            if (ref) {
+                observer.unobserve(ref);
+            }
+        };
+    }, [options]);
+
+    return [setRef, visible];
+}
+
 const Experience = () => {
+    const [setRef, visible] = useOnScreen({ rootMargin: "-500px" });
+
     return (
-        <div className="experience section" id="experience-section">
+        <div
+            className="experience section"
+            id="experience-section"
+            ref={setRef}
+        >
             <div class="columns">
                 <div
                     class="column is-three-fifths
 "
                 >
-                    <h1>Experience</h1>
-                    <p>
+                    <h1
+                        class={
+                            visible
+                                ? "el-one-left-onscrn"
+                                : "el-one-left-offscrn"
+                        }
+                    >
+                        Experience
+                    </h1>
+                    <p
+                        class={
+                            visible
+                                ? "el-two-left-onscrn"
+                                : "el-two-left-offscrn"
+                        }
+                    >
                         I work with employers of different technical abilities
                         from various businesses, consistently keeping in contact
                         with them to provide new pages or update existing pages
                         within tight deadlines.
                     </p>
                     <br />
-                    <p>
+                    <p
+                        class={
+                            visible
+                                ? "el-three-left-onscrn"
+                                : "el-three-left-offscrn"
+                        }
+                    >
                         We adopt an Agile work methadology along with Trello
                         boards to validate any issues, qualify the correct
                         solution, size the solution, finish and deploy the
@@ -34,17 +83,25 @@ const Experience = () => {
                         such as Netlify.
                     </p>
                     <br />
-
-                    {/* <p>My most recent project... SSH SFTP, Apache Server etc</p> */}
                 </div>
                 <div class="column">
-                    <div>
+                    <div
+                        class={
+                            visible
+                                ? "el-one-right-onscrn"
+                                : "el-one-right-offscrn"
+                        }
+                    >
                         <ScrumSVG />
                     </div>
                 </div>
             </div>
             <div class="columns">
-                <div class="column">
+                <div
+                    class={`column ${
+                        visible ? "el-one-left-onscrn" : "el-one-left-offscrn"
+                    }`}
+                >
                     <WebsiteCard
                         image={LivingandPowerfulSS}
                         projecttitle="Living and Powerful"
@@ -65,7 +122,12 @@ const Experience = () => {
                         }
                     />
                 </div>
-                <div class="column">
+
+                <div
+                    class={`column ${
+                        visible ? "el-fade-in-onscrn" : "el-fade-in-offscrn"
+                    }`}
+                >
                     <WebsiteCard
                         image={StMarksSS}
                         projecttitle="St Marks Coptic Church"
@@ -84,7 +146,11 @@ const Experience = () => {
                         }
                     />
                 </div>
-                <div class="column">
+                <div
+                    class={`column ${
+                        visible ? "el-one-right-onscrn" : "el-one-right-offscrn"
+                    }`}
+                >
                     <WebsiteCard
                         image={SurreyVeinsSS}
                         projecttitle="Surrey Veins"

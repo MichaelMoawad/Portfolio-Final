@@ -2,33 +2,57 @@ import React from "react";
 import ContactUsSVG from "./SVGComponents/ContactUsSVG";
 import "../styling/Contact.css";
 
+function useOnScreen(options) {
+    const [ref, setRef] = React.useState(null);
+    const [visible, setVisible] = React.useState(false);
+
+    React.useEffect(() => {
+        const observer = new IntersectionObserver(([entry]) => {
+            setVisible(entry.isIntersecting);
+        }, options);
+
+        if (ref && !visible) {
+            observer.observe(ref);
+        }
+
+        return () => {
+            if (ref) {
+                observer.unobserve(ref);
+            }
+        };
+    }, [options]);
+
+    return [setRef, visible];
+}
+
 const Contact = () => {
+    const [setRef, visible] = useOnScreen({ rootMargin: "-500px" });
+
     return (
-        <div className="contact section" id="contact-section">
-            {/* <div class="columns">
-                <div class="column">
-                    <h1>Contact Me</h1>
-                </div>
-                <div class="column">
-                    <div>
-                        <ContactUsSVG />
-                    </div>
-                </div>
-            </div> */}
+        <div className="contact section" id="contact-section" ref={setRef}>
             <div class="contact-me-title">
-                <h1>Get in touch</h1>
-                <p>I am currently searching for new employment oppurtunities</p>
+                <h1
+                    class={
+                        visible ? "el-one-left-onscrn" : "el-one-left-offscrn"
+                    }
+                >
+                    Get in touch
+                </h1>
+                <p
+                    class={
+                        visible ? "el-two-left-onscrn" : "el-two-left-offscrn"
+                    }
+                >
+                    I am currently searching for new employment oppurtunities
+                </p>
             </div>
-            <div class="contact-me-svg">
+            <div
+                class={`contact-me-svg ${
+                    visible ? "el-one-right-onscrn" : "el-one-right-offscrn"
+                }`}
+            >
                 <ContactUsSVG />
             </div>
-            {/* <a
-                href="mailto:michaelmoawad1997@gmail.com"
-                target="_blank"
-                class="webcard-button is-primary is-inverted is-outlined"
-            >
-                Get in Touch
-            </a> */}
         </div>
     );
 };

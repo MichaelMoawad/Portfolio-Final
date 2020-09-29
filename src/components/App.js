@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { InView } from "react-intersection-observer";
 // import BibleReaderSS from "../Portfolio Pics/Bible-Reader.png";
 // import BudgetAppSS from "../Portfolio Pics/Budget-App.png";
 // import RollTheDiceSS from "../Portfolio Pics/Roll-The-Dice-App.png";
@@ -15,50 +16,77 @@ import Footer from "./Footer";
 import SocialLinks from "./SocialLinks";
 import SocialLinksSVG from "./SVGComponents/SocialLinksSVG";
 
-class App extends Component {
-    render() {
-        return (
-            <div>
-                <Navbar />
-                <div className="container">
-                    <Landing />
-                    <div className="App">
-                        <About />
-                        <Experience />
-                        <Projects id="#projects-section" />
-                        <Contact />
-                    </div>
+// function useOnScreen(options) {
+//     const ref = React.useRef();
+//     const [visible, setVisible] = React.useState(false);
+
+//     React.useEffect(() => {
+//         const observer = new IntersectionObserver(([entry]) => {
+//             setVisible(entry.isIntersecting);
+//         }, options);
+
+//         console.log(visible);
+
+//         if (ref.current) {
+//             observer.observe(ref.current);
+//         }
+
+//         return () => {
+//             if (ref.current) {
+//                 observer.unobserve(ref.current);
+//             }
+//         };
+//     }, [ref, options]);
+
+//     return [ref, visible];
+// }
+
+function App() {
+    // const [ref, visible] = useOnScreen({ rootMargin: "-500px" });
+
+    return (
+        <div>
+            <Navbar />
+            <div className="container">
+                <Landing />
+                <div className="App">
+                    <About />
+                    <Experience />
+                    <Projects id="#projects-section" />
+                    <Contact />
                 </div>
-                {/* <button class="homepage-button is-primary is-outlined">
+            </div>
+            {/* <button class="homepage-button is-primary is-outlined">
                 Homepage
             </button> */}
-                <SocialLinksSVG />
-                <Footer />
-            </div>
-        );
-    }
+            <SocialLinksSVG />
+            <Footer />
+        </div>
+    );
 }
 
-// function App() {
-//     return (
-//         <div>
-//             <Navbar />
-//             <div className="container">
-//                 <Landing />
-//                 <div className="App">
-//                     <About />
-//                     <Experience />
-//                     <Projects id="#projects-section" />
-//                     <Contact />
+// class App extends Component {
+//     render() {
+//         return (
+//             <div>
+//                 <Navbar />
+//                 <div className="container">
+//                     <Landing />
+//                     <div className="App">
+//                         <About />
+//                         <Experience />
+//                         <Projects id="#projects-section" />
+//                         <Contact />
+//                     </div>
 //                 </div>
-//             </div>
-//             {/* <button class="homepage-button is-primary is-outlined">
+//                 {/* <button class="homepage-button is-primary is-outlined">
 //                 Homepage
 //             </button> */}
-//             <SocialLinksSVG />
-//             <Footer />
-//         </div>
-//     );
+//                 <SocialLinksSVG />
+//                 <Footer />
+//             </div>
+//         );
+//     }
 // }
 
 export default App;
