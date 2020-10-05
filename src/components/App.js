@@ -45,7 +45,7 @@ function App() {
     // const [ref, visible] = useOnScreen({ rootMargin: "-500px" });
 
     return (
-        <div>
+        <div className="scroll-test">
             <Navbar />
             <div className="container">
                 <Landing />

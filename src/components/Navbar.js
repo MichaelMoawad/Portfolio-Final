@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import "../styling/Navbar.css";
 
-const Navbar = () => {
+const Navbar = (props) => {
     const [activity, setActivity] = useState("navlinks-list");
     const [burger, setBurger] = useState("burger");
 
