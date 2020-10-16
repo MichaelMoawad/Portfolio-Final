@@ -26,7 +26,7 @@ function useOnScreen(options) {
 }
 
 const Contact = () => {
-    const [setRef, visible] = useOnScreen({ rootMargin: "-500px" });
+    const [setRef, visible] = useOnScreen({ rootmargin: "-500px" });
 
     return (
         <div className="contact section" id="contact-section" ref={setRef}>
@@ -47,9 +47,8 @@ const Contact = () => {
                 </p>
             </div>
             <div
-                class={`contact-me-svg ${
-                    visible ? "el-one-right-onscrn" : "el-one-right-offscrn"
-                }`}
+                class={`contact-me-svg ${visible ? "el-one-right-onscrn" : "el-one-right-offscrn"
+                    }`}
             >
                 <ContactUsSVG />
             </div>

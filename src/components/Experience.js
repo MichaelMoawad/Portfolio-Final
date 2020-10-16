@@ -97,7 +97,7 @@ const Experience = () => {
                 </div>
             </div>
             <div class="columns">
-                <div
+                {/* <div
                     class={`column ${
                         visible ? "el-one-left-onscrn" : "el-one-left-offscrn"
                     }`}
@@ -121,12 +121,11 @@ const Experience = () => {
                             </div>
                         }
                     />
-                </div>
+                </div> */}
 
                 <div
-                    class={`column ${
-                        visible ? "el-fade-in-onscrn" : "el-fade-in-offscrn"
-                    }`}
+                    class={`column ${visible ? "el-fade-in-onscrn" : "el-fade-in-offscrn"
+                        }`}
                 >
                     <WebsiteCard
                         image={StMarksSS}
@@ -147,9 +146,8 @@ const Experience = () => {
                     />
                 </div>
                 <div
-                    class={`column ${
-                        visible ? "el-one-right-onscrn" : "el-one-right-offscrn"
-                    }`}
+                    class={`column ${visible ? "el-one-right-onscrn" : "el-one-right-offscrn"
+                        }`}
                 >
                     <WebsiteCard
                         image={SurreyVeinsSS}
