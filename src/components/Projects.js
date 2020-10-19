@@ -31,7 +31,7 @@ function useOnScreen(options) {
 }
 
 const Projects = () => {
-    const [setRef, visible] = useOnScreen({ rootMargin: "-500px" });
+    const [setRef, visible] = useOnScreen({ rootMargin: "-400px" });
 
     return (
         <div className="projects section" id="projects-section" ref={setRef}>

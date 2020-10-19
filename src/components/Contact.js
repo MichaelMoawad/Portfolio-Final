@@ -26,7 +26,7 @@ function useOnScreen(options) {
 }
 
 const Contact = () => {
-    const [setRef, visible] = useOnScreen({ rootmargin: "-500px" });
+    const [setRef, visible] = useOnScreen({ rootmargin: "-400px" });
 
     return (
         <div className="contact section" id="contact-section" ref={setRef}>

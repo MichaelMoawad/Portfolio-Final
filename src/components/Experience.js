@@ -31,7 +31,7 @@ function useOnScreen(options) {
 }
 
 const Experience = () => {
-    const [setRef, visible] = useOnScreen({ rootMargin: "-500px" });
+    const [setRef, visible] = useOnScreen({ rootMargin: "-400px" });
 
     return (
         <div
