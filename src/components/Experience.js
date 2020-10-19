@@ -97,7 +97,7 @@ const Experience = () => {
                 </div>
             </div>
             <div class="columns">
-                {/* <div
+                <div
                     class={`column ${
                         visible ? "el-one-left-onscrn" : "el-one-left-offscrn"
                     }`}
@@ -107,6 +107,7 @@ const Experience = () => {
                         projecttitle="Living and Powerful"
                         projectlink="Currently Not Available"
                         content="An Ecommerce website that ships NKJV bible themed illustration cards and accessories suitable for all ages."
+                        buttonText="Not Yet Available"
                         technologies={
                             <div>
                                 <h4>Technologies:</h4>
@@ -121,7 +122,7 @@ const Experience = () => {
                             </div>
                         }
                     />
-                </div> */}
+                </div>
 
                 <div
                     class={`column ${visible ? "el-fade-in-onscrn" : "el-fade-in-offscrn"
@@ -132,6 +133,7 @@ const Experience = () => {
                         projecttitle="St Marks Coptic Church"
                         projectlink="https://stmark.org.uk/"
                         content="The Official St Marks Coptic Orthodox Church Website, based in HighStreet Kensington"
+                        buttonText="Visit Site"
                         technologies={
                             <div>
                                 <h4>Technologies:</h4>
@@ -154,6 +156,7 @@ const Experience = () => {
                         projecttitle="Surrey Veins"
                         projectlink="https://www.surreyveins.com/"
                         content="A website made for the Surrey Veins Ltd Company specialising in the treatment of Varicose Veins, based in Surrey"
+                        buttonText="Visit Site"
                         technologies={
                             <div>
                                 <h4>Technologies:</h4>

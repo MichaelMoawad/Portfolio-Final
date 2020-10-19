@@ -108,6 +108,7 @@ const Projects = () => {
                         projecttitle="Bible Reader"
                         projectlink="https://biblereader.netlify.app/"
                         content="A Bible Reading Application that fetches and displays chapters from the KJV Bible designed and built using React."
+                        buttonText="Visit Site"
                         technologies={
                             <div>
                                 <h4>Technologies:</h4>
@@ -133,6 +134,7 @@ const Projects = () => {
                         projectlink="https://budget-app-mm.netlify.app/"
                         content="A Budget Management application that calculates total income and expenses designed and built using Vanilla JavaScript
                         with no libraries."
+                        buttonText="Visit Site"
                         technologies={
                             <div>
                                 <h4>Technologies:</h4>
@@ -156,6 +158,7 @@ const Projects = () => {
                         projecttitle="Roll the Dice"
                         projectlink="https://roll-the-dice-game.netlify.app/"
                         content="A two player Dice Rolling Game where users continually roll dice until reaching a final score developed using Vanilla JavaScript with no libraries."
+                        buttonText="Visit Site"
                         technologies={
                             <div>
                                 <h4>Technologies:</h4>

@@ -29,7 +29,7 @@ const WebsiteCard = (props) => {
                         target="_blank"
                         class="webcard-button is-primary is-inverted is-outlined"
                     >
-                        Visit Site
+                        {props.buttonText}
                     </a>
                 </div>
             </div>
