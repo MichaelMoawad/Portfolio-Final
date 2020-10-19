@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../Portfolio Pics/Michael_Moawad_Resume.pdf"
 import { useState } from "react";
 import { Link } from "react-scroll";
 import "../styling/Navbar.css";
@@ -50,7 +51,8 @@ const Navbar = (props) => {
                     </ul>
                     <div className="resume">
                         <a
-                            href="https://www.cakeresume.com/michael-moawad"
+                            // href="https://www.cakeresume.com/michael-moawad"
+                            href={Resume}
                             target="_blank"
                             className="resume"
                         >

@@ -101,6 +101,7 @@ const About = () => {
                                 {/* <p class="subtitle">With an image</p> */}
                                 <figure class="image is-200x">
                                     <img
+                                        style={{borderRadius: "5px"}}
                                         src={MichaelLinkedin}
                                         alt="profile-picture"
                                     />
