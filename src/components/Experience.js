@@ -1,8 +1,8 @@
 import React from "react";
 import WebsiteCard from "./WebsiteCard";
-import LivingandPowerfulSS from "../Portfolio Pics/Living-and-Powerful.png";
-import StMarksSS from "../Portfolio Pics/St-Marks.png";
-import SurreyVeinsSS from "../Portfolio Pics/Surrey-Veins.png";
+import LivingandPowerfulSS from "../Portfolio Pics/Living-and-Powerful.jpg";
+import StMarksSS from "../Portfolio Pics/St-Marks.jpg";
+import SurreyVeinsSS from "../Portfolio Pics/Surrey-Veins.jpg";
 import ScrumSVG from "./SVGComponents/ScrumSVG";
 
 // import "../styling/Experience.css";

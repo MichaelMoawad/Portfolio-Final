@@ -1,8 +1,8 @@
 import React from "react";
 import WebsiteCard from "./WebsiteCard";
-import BibleReaderSS from "../Portfolio Pics/Bible-Reader.png";
-import BudgetAppSS from "../Portfolio Pics/Budget-App.png";
-import RollTheDiceSS from "../Portfolio Pics/Roll-The-Dice-App.png";
+import BibleReaderSS from "../Portfolio Pics/Bible-Reader.jpg";
+import BudgetAppSS from "../Portfolio Pics/Budget-App.jpg";
+import RollTheDiceSS from "../Portfolio Pics/Roll-The-Dice-App.jpg";
 import FreelancerSVG from "./SVGComponents/FreelancerSVG";
 
 import "../styling/Projects.css";
