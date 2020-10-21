@@ -1,6 +1,6 @@
 import React from "react";
 import WebsiteCard from "./WebsiteCard";
-import LivingandPowerfulSS from "../Portfolio Pics/Living-and-Powerful.jpg";
+import LivingandPowerfulSS from "../Portfolio Pics/slide2n-lp2.jpg";
 import StMarksSS from "../Portfolio Pics/St-Marks.jpg";
 import SurreyVeinsSS from "../Portfolio Pics/Surrey-Veins.jpg";
 import ScrumSVG from "./SVGComponents/ScrumSVG";
@@ -104,20 +104,21 @@ const Experience = () => {
                 >
                     <WebsiteCard
                         image={LivingandPowerfulSS}
-                        projecttitle="Living and Powerful"
+                        projecttitle="CUMI"
                         projectlink="Currently Not Available"
                         content="An Ecommerce website that ships NKJV bible themed illustration cards and accessories suitable for all ages."
-                        buttonText="Not Yet Available"
+                        buttonText="Coming Soon"
                         technologies={
                             <div>
                                 <h4>Technologies:</h4>
                                 <ul>
                                     <li>Magento 2</li>
-                                    <li>Porto Theme</li>
+                                    <li>Linux VPS</li>
+                                    <li>PHP</li>
+                                    <li>MySQL</li>
+                                    <li>SSH and SFTP</li>
                                     <li>HTML</li>
                                     <li>CSS</li>
-                                    <li>SSH and SFTP</li>
-                                    <li>PHP</li>
                                 </ul>
                             </div>
                         }

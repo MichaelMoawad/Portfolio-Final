@@ -59,7 +59,7 @@ const About = () => {
                     </div>
                     <div class="tile">
                         <div class="tile is-parent is-vertical">
-                            <article
+                            {/* <article
                                 className={`tile is-child notification test-color ${
                                     visible
                                         ? "el-two-left-onscrn"
@@ -68,9 +68,11 @@ const About = () => {
                             >
                                 <h3 class="title">Where I'm from</h3>
                                 <p class="subtitle">
-                                    Surbiton, London, The United Kingdom
+                                    Surbiton, London, The United Kingdom.
+
+                                    I am happy to relocate to other positions 
                                 </p>
-                            </article>
+                            </article> */}
                             <article
                                 className={`tile is-child notification test-color ${
                                     visible
@@ -80,13 +82,25 @@ const About = () => {
                             >
                                 <h3 class="title">Where I Studied</h3>
                                 <p class="subtitle">
-                                    I studied Mechanical Engineering
-                                    Specialising in Sound and Vibration at
-                                    <a href="https://www.southampton.ac.uk/">
-                                        {" "}
+                                    I achieved a 2:1 in Mechanical Engineering
+                                    Specialising in Sound and Vibration at {" "}
+                                    <a className="uni-link" href="https://www.southampton.ac.uk/">
                                         The University of Southampton
                                     </a>
                                 </p>
+                                <p>
+                                    Some of my specialist modules also included:
+                                </p>
+                                {/* <br/> */}
+                                <div className="content">
+                                    <ul className="languages">
+                                        <li>Engineering Design and Management</li>
+                                        <li>Finite Element Analysis</li>
+                                        <li>Heat Transfer and Applications</li>
+                                        <li>Manufacturing and Materials</li>
+                                    </ul>
+                                </div>
+                                
                             </article>
                         </div>
                         <div class="tile is-parent">

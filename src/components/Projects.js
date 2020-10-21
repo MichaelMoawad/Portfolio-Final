@@ -115,6 +115,7 @@ const Projects = () => {
                                 <ul>
                                     <li>React</li>
                                     <li>JavaScript</li>
+                                    <li>AJAX</li>
                                     <li>HTML</li>
                                     <li>CSS</li>
                                     <li>Git</li>

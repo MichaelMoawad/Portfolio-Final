@@ -12,71 +12,79 @@
 } */
 
 .about p {
-    font-size: 15px;
+  font-size: 15px;
+}
+
+.uni-Link {
+  opacity: 0.8;
+  padding-left: 4px;
+  text-decoration: none;
+  color: #01d1b2;
+  transition: 0.3s;
 }
 
 .languages {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
 }
 
 .content h5 {
-    color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .el-one-left-offscrn {
-    transition: 0.5s;
-    opacity: 0;
-    -webkit-transform: translateX(-100px);
-    transform: translateX(-100px);
+  transition: 0.5s;
+  opacity: 0;
+  -webkit-transform: translateX(-100px);
+  transform: translateX(-100px);
 }
 .el-two-left-offscrn {
-    transition: 0.5s;
-    opacity: 0;
-    -webkit-transform: translateX(-100px);
-    transform: translateX(-100px);
+  transition: 0.5s;
+  opacity: 0;
+  -webkit-transform: translateX(-100px);
+  transform: translateX(-100px);
 }
 .el-three-left-offscrn {
-    transition: 0.5s;
-    opacity: 0;
-    -webkit-transform: translateX(-100px);
-    transform: translateX(-100px);
+  transition: 0.5s;
+  opacity: 0;
+  -webkit-transform: translateX(-100px);
+  transform: translateX(-100px);
 }
 .el-four-left-offscrn {
-    transition: 0.5s;
-    opacity: 0;
-    -webkit-transform: translateX(-100px);
-    transform: translateX(-100px);
+  transition: 0.5s;
+  opacity: 0;
+  -webkit-transform: translateX(-100px);
+  transform: translateX(-100px);
 }
 .el-one-right-offscrn {
-    transition: 0.5s;
-    opacity: 0;
-    -webkit-transform: translateX(100px);
-    transform: translateX(100px);
+  transition: 0.5s;
+  opacity: 0;
+  -webkit-transform: translateX(100px);
+  transform: translateX(100px);
 }
 .el-two-right-offscrn {
-    transition: 0.5s;
-    opacity: 0;
-    -webkit-transform: translateX(100px);
-    transform: translateX(100px);
+  transition: 0.5s;
+  opacity: 0;
+  -webkit-transform: translateX(100px);
+  transform: translateX(100px);
 }
 .el-three-right-offscrn {
-    transition: 0.5s;
-    opacity: 0;
-    -webkit-transform: translateX(100px);
-    transform: translateX(100px);
+  transition: 0.5s;
+  opacity: 0;
+  -webkit-transform: translateX(100px);
+  transform: translateX(100px);
 }
 .el-four-right-offscrn {
-    transition: 0.5s;
-    opacity: 0;
-    -webkit-transform: translateX(100px);
-    transform: translateX(100px);
+  transition: 0.5s;
+  opacity: 0;
+  -webkit-transform: translateX(100px);
+  transform: translateX(100px);
 }
 
 .el-fade-in-offscrn {
-    transition: 0.5s;
-    opacity: 0;
+  transition: 0.5s;
+  opacity: 0;
 }
 
 /* ---------------------------------------------  */
@@ -84,64 +92,63 @@
 /* ---------------------------------------------  */
 
 .el-one-left-onscrn {
-    opacity: 1;
-    transition: 0.5s;
-    -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-        both;
-    animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  opacity: 1;
+  transition: 0.5s;
+  -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 .el-two-left-onscrn {
-    opacity: 1;
-    transition: 0.5s;
-    -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-        both 100ms;
-    animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 100ms;
+  opacity: 1;
+  transition: 0.5s;
+  -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both
+    100ms;
+  animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 100ms;
 }
 .el-three-left-onscrn {
-    opacity: 1;
-    transition: 0.5s;
-    -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-        both 200ms;
-    animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 200ms;
+  opacity: 1;
+  transition: 0.5s;
+  -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both
+    200ms;
+  animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 200ms;
 }
 .el-four-left-onscrn {
-    opacity: 1;
-    transition: 0.5s;
-    -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-        both 300ms;
-    animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 300ms;
+  opacity: 1;
+  transition: 0.5s;
+  -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both
+    300ms;
+  animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 300ms;
 }
 .el-one-right-onscrn {
-    opacity: 1;
-    transition: 0.5s;
-    -webkit-animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-    animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  opacity: 1;
+  transition: 0.5s;
+  -webkit-animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 .el-two-right-onscrn {
-    opacity: 1;
-    transition: 0.5s;
-    -webkit-animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both
-        100ms;
-    animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 100ms;
+  opacity: 1;
+  transition: 0.5s;
+  -webkit-animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both
+    100ms;
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 100ms;
 }
 .el-three-right-onscrn {
-    opacity: 1;
-    transition: 0.5s;
-    -webkit-animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both
-        200ms;
-    animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 200ms;
+  opacity: 1;
+  transition: 0.5s;
+  -webkit-animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both
+    200ms;
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 200ms;
 }
 .el-four-right-onscrn {
-    opacity: 1;
-    transition: 0.5s;
-    -webkit-animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both
-        300ms;
-    animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 300ms;
+  opacity: 1;
+  transition: 0.5s;
+  -webkit-animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both
+    300ms;
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 300ms;
 }
 
 .el-fade-in-onscrn {
-    transition: 0.5s;
-    opacity: 1;
+  transition: 0.5s;
+  opacity: 1;
 }
 
 /* ----------------------------------------------
@@ -157,24 +164,24 @@
  * ----------------------------------------
  */
 @-webkit-keyframes slide-right {
-    0% {
-        -webkit-transform: translateX(-100px);
-        transform: translateX(-100px);
-    }
-    100% {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
 }
 @keyframes slide-right {
-    0% {
-        -webkit-transform: translateX(-100px);
-        transform: translateX(-100px);
-    }
-    100% {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
 }
 /* ----------------------------------------------
  * Generated by Animista on 2020-9-25 15:1:56
@@ -189,24 +196,24 @@
  * ----------------------------------------
  */
 @-webkit-keyframes slide-left {
-    0% {
-        -webkit-transform: translateX(100px);
-        transform: translateX(100px);
-    }
-    100% {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
+  0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
 }
 @keyframes slide-left {
-    0% {
-        -webkit-transform: translateX(100px);
-        transform: translateX(100px);
-    }
-    100% {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
+  0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
 }
 
 /* ---------------------------------------------  */
@@ -214,89 +221,88 @@
 /* ---------------------------------------------  */
 
 @media screen and (max-width: 768px) {
-    .el-one-left-offscrn {
-        opacity: 1;
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-    .el-two-left-offscrn {
-        opacity: 1;
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-    .el-three-left-offscrn {
-        opacity: 1;
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-    .el-four-left-offscrn {
-        opacity: 1;
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-    .el-one-right-offscrn {
-        opacity: 1;
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-    .el-two-right-offscrn {
-        opacity: 1;
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-    .el-three-right-offscrn {
-        opacity: 1;
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-    .el-four-right-offscrn {
-        opacity: 1;
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
+  .el-one-left-offscrn {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+  .el-two-left-offscrn {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+  .el-three-left-offscrn {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+  .el-four-left-offscrn {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+  .el-one-right-offscrn {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+  .el-two-right-offscrn {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+  .el-three-right-offscrn {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+  .el-four-right-offscrn {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
 
-    .el-fade-in-offscrn {
-        opacity: 1;
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
+  .el-fade-in-offscrn {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
 
-    /* // off screen // */
+  /* // off screen // */
 
-    .el-one-left-onscrn {
-        opacity: 1;
-        transition: 0.5s;
-        -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-            both;
-        animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-    }
+  .el-one-left-onscrn {
+    opacity: 1;
+    transition: 0.5s;
+    -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
 
-    /* .el-one-left-onscrn {
+  /* .el-one-left-onscrn {
         opacity: 1;
     } */
-    .el-two-left-onscrn {
-        opacity: 1;
-    }
-    .el-three-left-onscrn {
-        opacity: 1;
-    }
-    .el-four-left-onscrn {
-        opacity: 1;
-    }
-    .el-one-right-onscrn {
-        opacity: 1;
-    }
-    .el-two-right-onscrn {
-        opacity: 1;
-    }
-    .el-three-right-onscrn {
-        opacity: 1;
-    }
-    .el-four-right-onscrn {
-        opacity: 1;
-    }
+  .el-two-left-onscrn {
+    opacity: 1;
+  }
+  .el-three-left-onscrn {
+    opacity: 1;
+  }
+  .el-four-left-onscrn {
+    opacity: 1;
+  }
+  .el-one-right-onscrn {
+    opacity: 1;
+  }
+  .el-two-right-onscrn {
+    opacity: 1;
+  }
+  .el-three-right-onscrn {
+    opacity: 1;
+  }
+  .el-four-right-onscrn {
+    opacity: 1;
+  }
 
-    .el-fade-in-onscrn {
-        opacity: 1;
-    }
+  .el-fade-in-onscrn {
+    opacity: 1;
+  }
 }
