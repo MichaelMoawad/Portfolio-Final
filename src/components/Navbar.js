@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../Portfolio Pics/Michael_Moawad_Resume.pdf"
+import Resume from "../Portfolio Pics/Michael_Moawad_CV.pdf"
 import { useState } from "react";
 import { Link } from "react-scroll";
 import "../styling/Navbar.css";
