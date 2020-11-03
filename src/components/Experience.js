@@ -105,7 +105,7 @@ const Experience = () => {
                     <WebsiteCard
                         image={LivingandPowerfulSS}
                         projecttitle="CUMI"
-                        projectlink="Currently Not Available"
+                        projectlink="https://www.livingandpowerful.com/"
                         content="An Ecommerce website that ships NKJV bible themed illustration cards and accessories suitable for all ages."
                         buttonText="Coming Soon"
                         technologies={
