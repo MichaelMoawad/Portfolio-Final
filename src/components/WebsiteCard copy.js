@@ -27,17 +27,9 @@ const WebsiteCard = (props) => {
                     <a
                         href={props.projectlink}
                         target="_blank"
-                        // class="webcard-button is-primary is-inverted is-outlined"
+                        class="webcard-button is-primary is-inverted is-outlined"
                     >
-                        <div className="threed-button-container">
-                            <button class="pushable">
-                                <span class="shadow"></span>
-                                <span class="edge"></span>
-                                <span class="front">
-                                {props.buttonText}
-                                </span>
-                            </button>
-                        </div>
+                        {props.buttonText}
                     </a>
                 </div>
             </div>

@@ -1,2 +1,16 @@
-Navy - #121F30
+Navy - #F4EDE1
 Gold - #E2A93C
+
+
+text- #1B1C22
+background - #F4EDE1
+primary light - #798495x
+primary light - #F4EDE1
+
+primary dark - #011638
+tertiary - #DBCBA9
+
+red - #B91646
+red:hover - #5D163F
+landing box - #DFD8C9
+

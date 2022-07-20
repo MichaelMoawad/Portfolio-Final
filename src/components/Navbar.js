@@ -23,11 +23,13 @@ const Navbar = (props) => {
             <nav>
                 <div className="logo">
                     <Link to="Home" smooth={true} duration={500}>
-                        <img
-                            className="logo-navbar"
-                            src="Michael_Moawad_ofiicial_logo_BACK.png"
-                            alt="logo-noback"
-                        />
+                        <a href="https://www.michaelmoawad.com/" target="_blank">
+                            <img
+                                className="logo-navbar"
+                                src="Michael_Moawad_ofiicial_logo.png"
+                                alt="logo-noback"
+                            />
+                        </a>
                     </Link>
                 </div>
                 <div className={activity}>

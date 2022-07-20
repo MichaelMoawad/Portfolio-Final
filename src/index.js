@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./components/App";
 import * as serviceWorker from "./serviceWorker";
+import './fonts/bebas_neue/BebasNeue-Regular.ttf';
+import './fonts/brittany_signature/BrittanySignature.ttf';
 
 ReactDOM.render(
     <React.StrictMode>
