@@ -1,5 +1,6 @@
 .scroll-test {
     scroll-behavior: smooth;
+    background: #F4EDE1;
 }
 
 .App {
@@ -7,14 +8,21 @@
     /* padding-bottom: 200px; */
     padding-left: 100px;
     scroll-behavior: smooth;
-    background: #121f30;
-    color: rgba(255, 255, 255, 0.7);
+    /* background: #F4EDE1; */
+    color: #1B1C22;
 }
 
 /* 
 .tile article {
     transform: translatex(10px);
 } */
+
+.tile article{
+    /* border: 2px solid black;*/
+    border-radius: 10px; 
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);;
+}
+
 
 .homepage-button {
     align-items: center;
@@ -42,6 +50,7 @@
 }
 
 h1 {
+    font-family: "bebas_neue";
     font-size: 80px;
     font-weight: 900;
     padding-bottom: 20px;
@@ -55,7 +64,7 @@ h1 {
 }
 
 .test-color {
-    background-color: #1a2f47;
+    background-color: #DFD8C9;
 }
 
 .title {
@@ -63,7 +72,7 @@ h1 {
 }
 
 .title-list {
-    color: rgba(255, 255, 255, 0.7);
+    color: #1B1C22;
     padding-top: 20px;
 }
 

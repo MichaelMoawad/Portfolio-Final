@@ -1,0 +1,1 @@
+- Removed/disabled Sass files "CPTextAnimation.scss" in codebase a this was raising issue. (version of sass not compatible for unknown reasons)

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styling/CPTextAnimation.scss";
+// import "../styling/CPTextAnimation.scss";
 
 const CPTextAnimation = () => {
     return (

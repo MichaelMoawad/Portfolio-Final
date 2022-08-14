@@ -35,7 +35,7 @@ const About = () => {
                     visible ? "el-one-left-onscrn" : "el-one-left-offscrn"
                 }
             >
-                About Me...
+                About Me
             </h1>
             <div class="tile is-ancestor">
                 <div class="tile is-vertical is-8">
@@ -103,7 +103,7 @@ const About = () => {
                                 
                             </article>
                         </div>
-                        <div class="tile is-parent">
+                        {/* <div class="tile is-parent">
                             <article
                                 class={`tile is-child notification test-color ${
                                     visible
@@ -111,8 +111,6 @@ const About = () => {
                                         : "el-fade-in-offscrn"
                                 }`}
                             >
-                                {/* <p class="title">Middle tile</p> */}
-                                {/* <p class="subtitle">With an image</p> */}
                                 <figure class="image is-200x">
                                     <img
                                         style={{borderRadius: "5px"}}
@@ -121,7 +119,7 @@ const About = () => {
                                     />
                                 </figure>
                             </article>
-                        </div>
+                        </div> */}
                     </div>
                     <div class="tile is-parent">
                         <article
@@ -156,14 +154,13 @@ const About = () => {
                         <div class="content">
                             <h3 class="title">What I'm up to</h3>
                             <p class="subtitle">
-                                I have been a Free-lance website developer
-                                throughout the past year building WordPress
-                                websites for clients all while developing my
-                                knowledge of Front End Scripting languages and
-                                frameworks.
+                                
+                                I am currently working full time with the Architectural Association as a developer, overseeing the numerous public facing and satellite sites run by the organisation.
+                                My work involves fullstack development, ensuring that user experience journeys are optimised while maintaining API calls to present necessary information on the site.
+
                             </p>
                             <p class="subtitle">
-                                I have now started developing web applications
+                                My start was in developing web applications
                                 using React frameworks by designing and
                                 implementing highly-responsive UI components
                                 while using version control systems such as Git

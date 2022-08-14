@@ -1,5 +1,7 @@
 import React from "react";
 import WebsiteCard from "./WebsiteCard";
+import ArchitecturalAssociationSS from "../Portfolio Pics/Architectural-Association.jpg";
+import CopticLawyersSS from "../Portfolio Pics/Coptic-lawyers-worldwide.jpg";
 import LivingandPowerfulSS from "../Portfolio Pics/slide2n-lp2.jpg";
 import StMarksSS from "../Portfolio Pics/St-Marks.jpg";
 import SurreyVeinsSS from "../Portfolio Pics/Surrey-Veins.jpg";
@@ -96,6 +98,60 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
+
+            <div class="columns">
+                <div
+                    class={`column ${
+                        visible ? "el-one-left-onscrn" : "el-one-left-offscrn"
+                    }`}
+                >
+                    <WebsiteCard
+                        image={ArchitecturalAssociationSS}
+                        projecttitle="Architectural Association"
+                        projectlink="https://www.aaschool.ac.uk/"
+                        content="The Official Website of the Architectural Association School of Architecture."
+                        buttonText="Visit Site"
+                        technologies={
+                            <div>
+                                <h4>Technologies:</h4>
+                                <ul>
+                                    <li>React</li>
+                                    <li>PHP</li>
+                                    <li>MySQL</li>
+                                    <li>SSH and SFTP</li>
+                                    <li>Statamic</li>
+                                    <li>HTML</li>
+                                    <li>CSS/SASS</li>
+                                </ul>
+                            </div>
+                        }
+                    />
+                </div>
+
+                <div
+                    class={`column ${visible ? "el-one-right-onscrn" : "el-one-right-offscrn"
+                        }`}
+                >
+                    <WebsiteCard
+                        image={CopticLawyersSS}
+                        projecttitle="Coptic Lawyers Wordlwide"
+                        projectlink="https://www.copticlawyersworldwide.org/"
+                        content="A remote organisation designed to connect lawyers from a minority group to provide tuition and
+                        networking opportunities."
+                        buttonText="Visit Site"
+                        technologies={
+                            <div>
+                                <h4>Technologies:</h4>
+                                <ul>
+                                    <li>React</li>
+                                    <li>HTML</li>
+                                    <li>CSS/SASS</li>
+                                </ul>
+                            </div>
+                        }
+                    />
+                </div>
+            </div>
             <div class="columns">
                 <div
                     class={`column ${
@@ -147,30 +203,7 @@ const Experience = () => {
                             </div>
                         }
                     />
-                </div>
-                <div
-                    class={`column ${visible ? "el-one-right-onscrn" : "el-one-right-offscrn"
-                        }`}
-                >
-                    <WebsiteCard
-                        image={SurreyVeinsSS}
-                        projecttitle="Surrey Veins"
-                        projectlink="https://www.surreyveins.com/"
-                        content="A website made for the Surrey Veins Ltd Company specialising in the treatment of Varicose Veins, based in Surrey"
-                        buttonText="Visit Site"
-                        technologies={
-                            <div>
-                                <h4>Technologies:</h4>
-                                <ul>
-                                    <li>WordPress</li>
-                                    <li>Jetpack Theme</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                </ul>
-                            </div>
-                        }
-                    />
-                </div>
+                </div>         
             </div>
         </div>
     );

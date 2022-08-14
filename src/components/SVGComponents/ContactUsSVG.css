@@ -1,38 +1,38 @@
 .github-iconSVG {
     transform: translate(214px, 254px);
-    color: #01d1b2b0;
+    color: #B91646;
     opacity: 0.8;
     transition: 0.3s;
 }
 
 .github-iconSVG:hover {
     opacity: 1;
-    color: #01d1b2;
+    color: #B91646;
     transition: 0.2s;
 }
 
 .email-iconSVG {
-    color: #01d1b2b0;
+    color: #B91646;
     opacity: 0.7;
     transition: 0.3s;
 }
 
 .email-iconSVG:hover {
     opacity: 1;
-    color: #01d1b2;
+    color: #B91646;
     transition: 0.2s;
 }
 
 .linkedin-iconSVG {
     transform: translate(232px, 190px);
-    color: #01d1b2b0;
+    color: #B91646;
     opacity: 0.8;
     transition: 0.3s;
 }
 
 .linkedin-iconSVG:hover {
     opacity: 1;
-    color: #01d1b2;
+    color: #B91646;
     transition: 0.2s;
 }
 

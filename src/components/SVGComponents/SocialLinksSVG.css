@@ -3,7 +3,7 @@
     flex-direction: column; */
     width: 80px;
     /* height: 80px; */
-    position: absolute;
+    position: sticky;
     bottom: 20px;
     padding-left: 45px;
     /* padding-right: 45px; */
