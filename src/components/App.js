@@ -8,6 +8,7 @@ import { InView } from "react-intersection-observer";
 import Navbar from "./Navbar";
 import "../styling/App.css";
 import About from "./About";
+import AboutNew from "./AboutNew";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Landing from "./Landing";
@@ -51,6 +52,7 @@ function App() {
                 <Landing />
                 <div className="App">
                     <About />
+                    {/* <AboutNew /> */}
                     <Experience />
                     <Projects id="#projects-section" />
                     <Contact />

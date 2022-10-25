@@ -29,7 +29,7 @@
 .landing-section-michael{
     font-family: "brittany_signature";
     font-size: 140px;
-    color: #B91646;
+    /* color: #B91646; */
     z-index: 1;
 
 }
@@ -751,7 +751,7 @@
     font-size: 1.25rem;
     color: white;
     height: 45px;
-    background: #B91646;
+    background: #E27D60;
     will-change: transform;
     transform: translateY(-4px);
     transition:

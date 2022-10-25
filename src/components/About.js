@@ -103,23 +103,6 @@ const About = () => {
                                 
                             </article>
                         </div>
-                        {/* <div class="tile is-parent">
-                            <article
-                                class={`tile is-child notification test-color ${
-                                    visible
-                                        ? "el-fade-in-onscrn"
-                                        : "el-fade-in-offscrn"
-                                }`}
-                            >
-                                <figure class="image is-200x">
-                                    <img
-                                        style={{borderRadius: "5px"}}
-                                        src={MichaelLinkedin}
-                                        alt="profile-picture"
-                                    />
-                                </figure>
-                            </article>
-                        </div> */}
                     </div>
                     <div class="tile is-parent">
                         <article

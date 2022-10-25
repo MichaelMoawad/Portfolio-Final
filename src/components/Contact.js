@@ -38,13 +38,13 @@ const Contact = () => {
                 >
                     Get in touch
                 </h1>
-                <p
+                {/* <p
                     class={
                         visible ? "el-two-left-onscrn" : "el-two-left-offscrn"
                     }
                 >
                     I am currently searching for new employment oppurtunities
-                </p>
+                </p> */}
             </div>
             <div
                 class={`contact-me-svg ${visible ? "el-one-right-onscrn" : "el-one-right-offscrn"
