@@ -67,7 +67,7 @@ const SocialLinks = () => {
                         </svg>
                     </a>
                 </li>
-                <li class="social-list-item-three">
+                {/* <li class="social-list-item-three">
                     <a
                         href="https://www.instagram.com/moawadmusic"
                         target="_blank"
@@ -107,7 +107,7 @@ const SocialLinks = () => {
                         transform="translate(-52 -162.63)"
                         opacity="0.1"
                     />
-                </li>
+                </li> */}
                 <li class="social-list-item-four">
                     <a
                         href="https://github.com/MichaelMoawad"

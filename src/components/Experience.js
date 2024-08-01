@@ -1,10 +1,11 @@
 import React from "react";
 import WebsiteCard from "./WebsiteCard";
+import EvinoxSS from "../Portfolio Pics/Evinox.jpg";
 import ArchitecturalAssociationSS from "../Portfolio Pics/Architectural-Association.png";
 import CopticLawyersSS from "../Portfolio Pics/Coptic-lawyers-worldwide.png";
 import LivingandPowerfulSS from "../Portfolio Pics/slide2n-lp2.jpg";
-import StMarksSS from "../Portfolio Pics/St-Marks.jpg";
-import SurreyVeinsSS from "../Portfolio Pics/Surrey-Veins.jpg";
+// import StMarksSS from "../Portfolio Pics/St-Marks.jpg";
+// import SurreyVeinsSS from "../Portfolio Pics/Surrey-Veins.jpg";
 import ScrumSVG from "./SVGComponents/ScrumSVG";
 
 // import "../styling/Experience.css";
@@ -106,6 +107,33 @@ const Experience = () => {
                     }`}
                 >
                     <WebsiteCard
+                        image={EvinoxSS}
+                        projecttitle="Evinox Heating Solutions"
+                        projectlink="https://www.evinox.co.uk/"
+                        content="The web based application exclusive to clients for full access and control over the heat network within their building"
+                        buttonText="Visit Site"
+                        technologies={
+                            <div>
+                                <h4>Technologies:</h4>
+                                <ul>
+                                    <li>React</li>
+                                    <li>PHP</li>
+                                    <li>MySQL</li>
+                                    <li>AWS</li>
+                                    <li>High Charts</li>
+                                    <li>AG Grids</li>
+                                    <li>Material UI</li>
+                                </ul>
+                            </div>
+                        }
+                    />
+                </div>
+
+                <div
+                    class={`column ${visible ? "el-one-right-onscrn" : "el-one-right-offscrn"
+                        }`}
+                >
+                    <WebsiteCard
                         image={ArchitecturalAssociationSS}
                         projecttitle="Architectural Association"
                         projectlink="https://www.aaschool.ac.uk/"
@@ -127,10 +155,12 @@ const Experience = () => {
                         }
                     />
                 </div>
-
+            </div>
+            <div class="columns">
                 <div
-                    class={`column ${visible ? "el-one-right-onscrn" : "el-one-right-offscrn"
-                        }`}
+                    class={`column ${
+                        visible ? "el-one-left-onscrn" : "el-one-left-offscrn"
+                    }`}
                 >
                     <WebsiteCard
                         image={CopticLawyersSS}
@@ -151,8 +181,35 @@ const Experience = () => {
                         }
                     />
                 </div>
+
+                <div
+                    class={`column ${visible ? "el-one-right-onscrn" : "el-one-right-offscrn"
+                        }`}
+                >
+                    <WebsiteCard
+                        image={LivingandPowerfulSS}
+                        projecttitle="CUMI"
+                        projectlink="https://www.livingandpowerful.com/"
+                        content="An Ecommerce website that ships NKJV bible themed illustration cards and accessories suitable for all ages."
+                        buttonText="Visit Site"
+                        technologies={
+                            <div>
+                                <h4>Technologies:</h4>
+                                <ul>
+                                    <li>Magento 2</li>
+                                    <li>Linux VPS</li>
+                                    <li>PHP</li>
+                                    <li>MySQL</li>
+                                    <li>SSH and SFTP</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                </ul>
+                            </div>
+                        }
+                    />
+                </div>
             </div>
-            <div class="columns">
+            {/* <div class="columns">
                 <div
                     class={`column ${
                         visible ? "el-one-left-onscrn" : "el-one-left-offscrn"
@@ -204,7 +261,7 @@ const Experience = () => {
                         }
                     />
                 </div>         
-            </div>
+            </div> */}
         </div>
     );
 };
