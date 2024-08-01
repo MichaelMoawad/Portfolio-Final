@@ -1,0 +1,81 @@
+/* div{
+    transition: 0.5s;
+} */
+
+.hidden{
+    display: none;
+    transition: 0.3s
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    /* transition: 0.3s; */
+}
+
+.about-card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60vw;
+}
+
+.aboutnew-hey, .aboutnew-where, .aboutnew-how, .aboutnew-what, .aboutnew-skills {
+    max-height: 200px;
+    transition: 0.3s;
+}
+
+
+.about-card {
+    margin: 30px;
+    /* min-height: 115px; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-card-covertext{
+    padding:30px;
+}
+
+.about-card-infotitle{
+    margin: 30px !important;
+}
+
+.about-card-infotext{
+    margin: 30px !important;
+}
+
+.aboutnew-hey{
+    height: 80px;
+    width: 100px;
+    background-color: rgb(182, 190, 106);
+}
+
+.aboutnew-hey:hover{
+    height: 400px;
+    width: 500px;
+}
+
+
+.aboutnew-where{
+    background-color: aqua;
+    height: 80px;
+    width: 100px;
+}
+
+.aboutnew-how{
+    background-color: rgb(0, 255, 102);
+    height: 160px;
+    width: 200px;
+}
+
+.aboutnew-what{
+    background-color: rgb(166, 0, 255);
+}
+
+.aboutnew-skills{
+    background-color: rgb(169, 67, 104);
+}
+

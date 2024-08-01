@@ -1,8 +1,8 @@
 import React from "react";
 import WebsiteCard from "./WebsiteCard";
 import EvinoxSS from "../Portfolio Pics/Evinox.jpg";
-import ArchitecturalAssociationSS from "../Portfolio Pics/Architectural-Association.png";
-import CopticLawyersSS from "../Portfolio Pics/Coptic-lawyers-worldwide.png";
+import ArchitecturalAssociationSS from "../Portfolio Pics/Architectural-Association.jpg";
+import CopticLawyersSS from "../Portfolio Pics/Coptic-lawyers-worldwide.jpg";
 import LivingandPowerfulSS from "../Portfolio Pics/slide2n-lp2.jpg";
 // import StMarksSS from "../Portfolio Pics/St-Marks.jpg";
 // import SurreyVeinsSS from "../Portfolio Pics/Surrey-Veins.jpg";
